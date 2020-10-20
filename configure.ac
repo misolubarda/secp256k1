@@ -127,7 +127,7 @@ AC_ARG_ENABLE(ecmult_static_precomputation,
 AC_ARG_ENABLE(module_ecdh,
     AS_HELP_STRING([--enable-module-ecdh],[enable ECDH shared secret computation (experimental)]),
     [enable_module_ecdh=$enableval],
-    [enable_module_ecdh=yes])
+    [enable_module_ecdh=no])
 
 AC_ARG_ENABLE(module_recovery,
     AS_HELP_STRING([--enable-module-recovery],[enable ECDSA pubkey recovery module (default is no)]),
